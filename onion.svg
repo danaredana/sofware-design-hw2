@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="430" viewBox="0 0 600 430">
+  <rect width="600" height="430" rx="16" fill="#f8fafc"/>
+  <g stroke-width="2" font-family="Arial, sans-serif" text-anchor="middle" fill="#172033">
+    <circle cx="300" cy="215" r="194" fill="#e0e7ff" stroke="#818cf8"/>
+    <circle cx="300" cy="215" r="132" fill="#dbeafe" stroke="#60a5fa"/>
+    <circle cx="300" cy="215" r="70" fill="#dcfce7" stroke="#4ade80"/>
+    <text x="300" y="58" font-size="21">Infrastructure</text>
+    <text x="300" y="384" font-size="21">Console + DI</text>
+    <text x="300" y="118" font-size="21">Application</text>
+    <text x="300" y="222" font-size="22" font-weight="bold">Domain</text>
+  </g>
+  <g fill="none" stroke="#475569" stroke-width="2" marker-end="url(#arrow)">
+    <path d="M300 65 V91"/>
+    <path d="M300 126 V157"/>
+  </g>
+  <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0 0 L6 3 L0 6" fill="none" stroke="#475569"/></marker></defs>
+</svg>
